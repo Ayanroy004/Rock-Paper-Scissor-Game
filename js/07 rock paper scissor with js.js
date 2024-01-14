@@ -89,7 +89,7 @@ function updateScoreElement(){
 
 function updateStatusElement(playerchoose,result,computer,image){
   showStatus.innerHTML=`${result} `
-  showStatus2.innerHTML=`you ${`<img class="css-image" src="/image/${playerchoose}-emoji.png" alt="Rock image">`} and computer ${`<img class="css-image" src="/image/${computer}-emoji.png" alt="Rock image">`}`
+  showStatus2.innerHTML=`you ${`<img class="css-image" src="image/${playerchoose}-emoji.png" alt="Rock image">`} and computer ${`<img class="css-image" src="image/${computer}-emoji.png" alt="Rock image">`}`
 }
 
 function funrandom()
